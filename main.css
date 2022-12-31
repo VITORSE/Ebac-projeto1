@@ -1,0 +1,154 @@
+/* RGM:25612158  /  NOME: VITOR DA SILVA EVANGELISTA */
+body{
+    width: 100%;
+    background-color:#c0c0c0;
+    }
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+}
+#logo{
+    width: 100%;
+    height: 55%;
+    padding-left: 20em;
+    padding-top: 3em;
+}
+header{
+    width: 100%;
+    background-color: #010101;
+}
+img{
+    width: 60%;
+
+}
+nav{
+    width: 100%;
+    text-align: right;
+    padding-right: 3em;
+}
+.wrap-header{
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+}
+ul{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+}
+.menu li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    display: inline-flex;
+    list-style:none;
+    
+}
+
+a{
+    text-decoration: none;
+    color:#000000;
+}
+.menu a{
+    padding-bottom: 5em;
+    padding-left: 0.5em;
+    padding-right: .4em;
+    padding-top: .3em;
+    color: white;}
+
+.menu a:hover{
+    background-color: red;
+}
+
+#content{
+    background-color: whitesmoke;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 3%;
+    display: flex;
+}
+.wrap-col{
+    padding-right: 5%;
+    padding-left: 5%;
+}
+#main-content div{
+    display: flex;
+}
+#main-content div article div{
+    display: block;
+}
+.box img{
+    width: 250px;
+    margin: 0 auto;
+}
+.info{
+    margin-bottom: 20%;
+    color: silver;
+}
+article{
+    padding-right: 5%;
+}
+.box_sobre, .box_categoria, .box_posts{
+    text-align: center;
+    padding-bottom: 20%;
+}
+.post{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10%;
+}
+.post img{
+    padding-right: 10%;
+}
+.post p{
+    padding-left: 40%;
+    color: grey;
+}
+.row_footer .heading{
+    width: 90%;
+    border-bottom: solid 5px white;
+}
+.wrap-col .heading{
+    border-bottom:solid 5px grey;
+}
+.more .button{
+    background-color: black;
+    color: white;
+    padding:3%;
+}
+.more{
+    padding-top: 10%;
+}  
+.row_footer{
+    display: flex;
+    width: 90%;    
+    margin: 0 auto;
+    padding-bottom: 6%;
+}
+.copyright{
+    background-color:black;
+    text-align: center;
+    color: white;
+    padding: 2%;
+}
+footer{
+    background-color: #363636;
+    margin-top: 3%;
+    text-align: center;
+    color: white;
+
+}
+@media screen and (max-width:479px) {
+    .wrap-header{
+        display: block;
+        margin-left: 0%;
+    }
+    nav{
+        text-align: left;
+    }
+    #content, #main-content div, .row_footer{
+        display: block;
+    }
+}
